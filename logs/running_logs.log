@@ -14,3 +14,122 @@
 [2024-03-21 18:15:57,338: INFO: main: >>>>>>stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2024-04-05 01:08:34,617: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-05 01:08:34,631: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-05 01:08:34,639: INFO: common: created directory at: artifacts]
+[2024-04-05 01:08:34,639: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-04-05 01:11:11,411: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-05 01:11:11,417: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-05 01:11:11,417: INFO: common: created directory at: artifacts]
+[2024-04-05 01:11:11,421: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-04-05 01:11:16,348: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-05 01:12:49,030: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-05 01:12:49,034: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-05 01:12:49,034: INFO: common: created directory at: artifacts]
+[2024-04-05 01:12:49,037: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-04-05 01:12:49,555: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-05 16:33:25,730: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-05 16:33:25,740: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-05 16:33:25,740: INFO: common: created directory at: artifacts]
+[2024-04-05 16:33:25,748: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-04-05 16:33:26,280: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-05 16:38:04,599: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-05 16:38:04,601: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-05 16:38:04,602: INFO: common: created directory at: artifacts]
+[2024-04-05 16:38:04,604: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-04-05 16:38:04,972: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-05 17:04:18,829: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-05 17:04:18,831: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-05 17:04:18,833: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-05 17:04:18,833: INFO: common: created directory at: artifacts]
+[2024-04-05 17:04:18,834: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-05 17:04:18,835: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1fKvhM2uDnUSFOsldzI8fM4hwsiDpQdZR/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-05 17:05:13,440: INFO: data_ingestion: Download data from https://drive.google.com/file/d/1fKvhM2uDnUSFOsldzI8fM4hwsiDpQdZR/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-05 17:05:29,622: INFO: main: >>>>>>stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-04-05 17:05:29,622: INFO: main: *************************]
+[2024-04-05 17:05:29,622: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-04-05 17:05:29,622: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-05 17:05:29,622: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-05 17:05:29,622: INFO: common: created directory at: artifacts]
+[2024-04-05 17:05:29,638: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-04-05 17:05:29,638: ERROR: main: __init__() got an unexpected keyword argument 'params_weight']
+Traceback (most recent call last):
+  File "main.py", line 21, in <module>
+    obj.main()
+  File "c:\users\prath\kidney_disease_classification_deep_learning_project\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 13, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+  File "c:\users\prath\kidney_disease_classification_deep_learning_project\src\cnnClassifier\config\configuration.py", line 38, in get_prepare_base_model_config
+    prepare_base_model_config= PrepareBaseModelConfig(
+TypeError: __init__() got an unexpected keyword argument 'params_weight'
+[2024-04-05 17:11:10,502: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-05 17:11:10,504: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-05 17:11:10,506: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-05 17:11:10,506: INFO: common: created directory at: artifacts]
+[2024-04-05 17:11:10,507: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-05 17:11:10,507: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1fKvhM2uDnUSFOsldzI8fM4hwsiDpQdZR/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-05 17:12:16,635: INFO: data_ingestion: Download data from https://drive.google.com/file/d/1fKvhM2uDnUSFOsldzI8fM4hwsiDpQdZR/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-05 17:12:36,074: INFO: main: >>>>>>stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-04-05 17:12:36,075: INFO: main: *************************]
+[2024-04-05 17:12:36,075: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-04-05 17:12:36,079: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-05 17:12:36,082: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-05 17:12:36,083: INFO: common: created directory at: artifacts]
+[2024-04-05 17:12:36,084: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-04-05 17:12:36,084: ERROR: main: __init__() got an unexpected keyword argument 'params_weight']
+Traceback (most recent call last):
+  File "main.py", line 21, in <module>
+    obj.main()
+  File "c:\users\prath\kidney_disease_classification_deep_learning_project\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 13, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+  File "c:\users\prath\kidney_disease_classification_deep_learning_project\src\cnnClassifier\config\configuration.py", line 38, in get_prepare_base_model_config
+    prepare_base_model_config= PrepareBaseModelConfig(
+TypeError: __init__() got an unexpected keyword argument 'params_weight'
+[2024-04-05 17:15:11,184: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-05 17:15:11,200: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-05 17:15:11,200: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-05 17:15:11,200: INFO: common: created directory at: artifacts]
+[2024-04-05 17:15:11,200: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-05 17:15:11,200: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1fKvhM2uDnUSFOsldzI8fM4hwsiDpQdZR/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-05 17:16:17,628: INFO: data_ingestion: Download data from https://drive.google.com/file/d/1fKvhM2uDnUSFOsldzI8fM4hwsiDpQdZR/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-05 17:16:35,656: INFO: main: >>>>>>stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-04-05 17:16:35,656: INFO: main: *************************]
+[2024-04-05 17:16:35,656: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-04-05 17:16:35,656: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-05 17:16:35,656: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-05 17:16:35,656: INFO: common: created directory at: artifacts]
+[2024-04-05 17:16:35,656: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-04-05 17:16:35,656: ERROR: main: 'PrepareBaseModelConfig' object has no attribute 'params_weight']
+Traceback (most recent call last):
+  File "main.py", line 21, in <module>
+    obj.main()
+  File "c:\users\prath\kidney_disease_classification_deep_learning_project\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 15, in main
+    prepare_base_model.get_base_model()
+  File "c:\users\prath\kidney_disease_classification_deep_learning_project\src\cnnClassifier\components\prepare_model_config.py", line 16, in get_base_model
+    weights=self.config.params_weight,
+AttributeError: 'PrepareBaseModelConfig' object has no attribute 'params_weight'
+[2024-04-05 17:18:03,637: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-05 17:18:03,638: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-05 17:18:03,638: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-05 17:18:03,638: INFO: common: created directory at: artifacts]
+[2024-04-05 17:18:03,638: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-05 17:18:03,638: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1fKvhM2uDnUSFOsldzI8fM4hwsiDpQdZR/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-05 17:19:11,996: INFO: data_ingestion: Download data from https://drive.google.com/file/d/1fKvhM2uDnUSFOsldzI8fM4hwsiDpQdZR/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-05 17:19:25,303: INFO: main: >>>>>>stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-04-05 17:19:25,303: INFO: main: *************************]
+[2024-04-05 17:19:25,303: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-04-05 17:19:25,306: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-05 17:19:25,306: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-05 17:19:25,306: INFO: common: created directory at: artifacts]
+[2024-04-05 17:19:25,306: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-04-05 17:19:25,858: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-05 17:19:26,068: INFO: main: >>>>>>stage Prepare base model completed <<<<<<
+
+x==========x]
