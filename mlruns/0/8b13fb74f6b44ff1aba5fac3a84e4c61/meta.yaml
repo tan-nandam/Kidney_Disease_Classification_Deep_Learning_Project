@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/prath/Kidney_Disease_Classification_Deep_Learning_Project/mlruns/0/8b13fb74f6b44ff1aba5fac3a84e4c61/artifacts
+end_time: 1712533357991
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8b13fb74f6b44ff1aba5fac3a84e4c61
+run_name: worried-asp-40
+run_uuid: 8b13fb74f6b44ff1aba5fac3a84e4c61
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712533346313
+status: 3
+tags: []
+user_id: prath

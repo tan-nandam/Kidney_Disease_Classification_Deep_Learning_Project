@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/prath/Kidney_Disease_Classification_Deep_Learning_Project/mlruns/0/ecdf2aab39a74229b2e61f0c04e4f6ad/artifacts
+end_time: 1712533757270
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ecdf2aab39a74229b2e61f0c04e4f6ad
+run_name: bright-auk-240
+run_uuid: ecdf2aab39a74229b2e61f0c04e4f6ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712533747571
+status: 3
+tags: []
+user_id: prath
