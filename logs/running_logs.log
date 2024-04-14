@@ -174,3 +174,416 @@ x==========x]
 [2024-04-05 21:36:17,336: INFO: main: >>>>>>stage Training completed <<<<<<
 
 x==========x]
+[2024-04-07 19:01:10,685: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-07 19:01:10,688: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-07 19:01:10,689: INFO: common: created directory at: artifacts]
+[2024-04-07 19:04:47,811: INFO: common: json file saved at: scores.json]
+[2024-04-07 19:04:50,247: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-04-07 19:04:50,764: INFO: builder_impl: Assets written to: C:\Users\prath\AppData\Local\Temp\tmp7qdd84hm\model\data\model\assets]
+[2024-04-13 17:59:57,554: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-13 17:59:57,564: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-13 17:59:57,573: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-13 17:59:57,574: INFO: common: created directory at: artifacts]
+[2024-04-13 17:59:57,574: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-13 17:59:57,574: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1fKvhM2uDnUSFOsldzI8fM4hwsiDpQdZR/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-13 18:00:28,456: INFO: data_ingestion: Download data from https://drive.google.com/file/d/1fKvhM2uDnUSFOsldzI8fM4hwsiDpQdZR/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-13 18:00:43,192: INFO: main: >>>>>>stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-04-13 18:00:43,192: INFO: main: *************************]
+[2024-04-13 18:00:43,192: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-04-13 18:00:43,195: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-13 18:00:43,198: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-13 18:00:43,199: INFO: common: created directory at: artifacts]
+[2024-04-13 18:00:43,199: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-04-13 18:00:43,969: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-13 18:00:44,461: INFO: main: >>>>>>stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-04-13 18:00:44,461: INFO: main: *************************]
+[2024-04-13 18:00:44,461: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-04-13 18:00:44,464: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-13 18:00:44,465: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-13 18:00:44,466: INFO: common: created directory at: artifacts]
+[2024-04-13 18:00:44,467: INFO: common: created directory at: artifacts\training]
+[2024-04-13 18:20:49,070: INFO: main: >>>>>>stage Training completed <<<<<<
+
+x==========x]
+[2024-04-13 18:20:49,070: INFO: main: *************************]
+[2024-04-13 18:20:49,071: INFO: main: >>>>>> stage Evaluation started <<<<<<]
+[2024-04-13 18:20:49,077: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-13 18:20:49,080: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-13 18:20:49,081: INFO: common: created directory at: artifacts]
+[2024-04-13 18:27:02,116: INFO: common: json file saved at: scores.json]
+[2024-04-13 18:27:04,730: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-04-13 18:27:05,693: INFO: builder_impl: Assets written to: C:\Users\prath\AppData\Local\Temp\tmpuomfe8mp\model\data\model\assets]
+[2024-04-13 18:27:17,028: INFO: dir_util: creating C:\Users\prath\Kidney_Disease_Classification_Deep_Learning_Project\mlruns\0\bc86a7db5590496395cc283e8c6a1f33\artifacts\model\data]
+[2024-04-13 18:27:17,032: INFO: dir_util: creating C:\Users\prath\Kidney_Disease_Classification_Deep_Learning_Project\mlruns\0\bc86a7db5590496395cc283e8c6a1f33\artifacts\model\data\model]
+[2024-04-13 18:27:17,034: INFO: dir_util: creating C:\Users\prath\Kidney_Disease_Classification_Deep_Learning_Project\mlruns\0\bc86a7db5590496395cc283e8c6a1f33\artifacts\model\data\model\assets]
+[2024-04-13 18:27:17,040: INFO: dir_util: creating C:\Users\prath\Kidney_Disease_Classification_Deep_Learning_Project\mlruns\0\bc86a7db5590496395cc283e8c6a1f33\artifacts\model\data\model\variables]
+[2024-04-13 18:27:17,349: INFO: main: >>>>>>stage Evaluation completed <<<<<<
+
+x==========x]
+[2024-04-13 18:33:39,158: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-13 18:33:39,158: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-13 18:33:39,158: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-13 18:33:39,158: INFO: common: created directory at: artifacts]
+[2024-04-13 18:33:39,158: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-13 18:33:39,158: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1fKvhM2uDnUSFOsldzI8fM4hwsiDpQdZR/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-13 18:34:17,194: INFO: data_ingestion: Download data from https://drive.google.com/file/d/1fKvhM2uDnUSFOsldzI8fM4hwsiDpQdZR/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-13 18:34:34,605: INFO: main: >>>>>>stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-04-13 18:34:34,605: INFO: main: *************************]
+[2024-04-13 18:34:34,605: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-04-13 18:34:34,605: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-13 18:34:34,605: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-13 18:34:34,605: INFO: common: created directory at: artifacts]
+[2024-04-13 18:34:34,605: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-04-13 18:34:35,612: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-13 18:34:35,963: INFO: main: >>>>>>stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-04-13 18:34:35,963: INFO: main: *************************]
+[2024-04-13 18:34:35,963: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-04-13 18:34:35,963: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-13 18:34:35,963: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-13 18:34:35,963: INFO: common: created directory at: artifacts]
+[2024-04-13 18:34:35,979: INFO: common: created directory at: artifacts\training]
+[2024-04-13 19:39:52,652: INFO: main: >>>>>>stage Training completed <<<<<<
+
+x==========x]
+[2024-04-13 19:39:52,656: INFO: main: *************************]
+[2024-04-13 19:39:52,656: INFO: main: >>>>>> stage Evaluation started <<<<<<]
+[2024-04-13 19:39:52,663: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-13 19:39:52,663: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-13 19:39:52,663: INFO: common: created directory at: artifacts]
+[2024-04-13 19:48:22,911: INFO: common: json file saved at: scores.json]
+[2024-04-13 19:48:29,342: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-04-13 19:48:31,212: INFO: builder_impl: Assets written to: C:\Users\prath\AppData\Local\Temp\tmp_t3mzld4\model\data\model\assets]
+[2024-04-13 19:49:32,032: INFO: main: >>>>>>stage Evaluation completed <<<<<<
+
+x==========x]
+[2024-04-13 19:51:03,781: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-13 19:51:03,797: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-13 19:51:03,797: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-13 19:51:03,797: INFO: common: created directory at: artifacts]
+[2024-04-13 19:51:03,797: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-13 19:51:03,797: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1fKvhM2uDnUSFOsldzI8fM4hwsiDpQdZR/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-13 19:51:42,617: INFO: data_ingestion: Download data from https://drive.google.com/file/d/1fKvhM2uDnUSFOsldzI8fM4hwsiDpQdZR/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-13 19:52:14,741: INFO: main: >>>>>>stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-04-13 19:52:14,741: INFO: main: *************************]
+[2024-04-13 19:52:14,741: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-04-13 19:52:14,751: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-13 19:52:14,760: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-13 19:52:14,762: INFO: common: created directory at: artifacts]
+[2024-04-13 19:52:14,762: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-04-13 19:52:15,961: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-13 19:52:16,681: INFO: main: >>>>>>stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-04-13 19:52:16,681: INFO: main: *************************]
+[2024-04-13 19:52:16,683: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-04-13 19:52:16,683: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-13 19:52:16,696: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-13 19:52:16,696: INFO: common: created directory at: artifacts]
+[2024-04-13 19:52:16,696: INFO: common: created directory at: artifacts\training]
+[2024-04-13 20:51:37,403: INFO: main: >>>>>>stage Training completed <<<<<<
+
+x==========x]
+[2024-04-13 20:51:37,418: INFO: main: *************************]
+[2024-04-13 20:51:37,418: INFO: main: >>>>>> stage Evaluation started <<<<<<]
+[2024-04-13 20:51:37,418: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-13 20:51:37,435: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-13 20:51:37,435: INFO: common: created directory at: artifacts]
+[2024-04-13 21:03:17,246: INFO: common: json file saved at: scores.json]
+[2024-04-13 21:03:24,916: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-04-13 21:03:26,881: INFO: builder_impl: Assets written to: C:\Users\prath\AppData\Local\Temp\tmp2yub255v\model\data\model\assets]
+[2024-04-13 21:04:40,493: INFO: main: >>>>>>stage Evaluation completed <<<<<<
+
+x==========x]
+[2024-04-13 21:13:59,623: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-04-13 21:13:59,636: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-13 21:13:59,647: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-13 21:13:59,647: INFO: common: created directory at: artifacts]
+[2024-04-13 21:13:59,656: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-13 21:13:59,656: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1fKvhM2uDnUSFOsldzI8fM4hwsiDpQdZR/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-13 21:14:39,923: INFO: data_ingestion: Download data from https://drive.google.com/file/d/1fKvhM2uDnUSFOsldzI8fM4hwsiDpQdZR/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-13 21:15:20,282: INFO: stage_01_data_ingestion: >>>>>>stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-04-13 21:20:13,661: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-04-13 21:20:13,678: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-13 21:20:13,690: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-13 21:20:13,694: INFO: common: created directory at: artifacts]
+[2024-04-13 21:20:13,694: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-04-13 21:20:15,372: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-13 21:20:16,398: INFO: stage_02_prepare_base_model: >>>>>>stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-04-13 21:20:51,779: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2024-04-13 21:20:51,799: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-13 21:20:51,813: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-13 21:20:51,818: INFO: common: created directory at: artifacts]
+[2024-04-13 21:20:51,819: INFO: common: created directory at: artifacts\training]
+[2024-04-13 22:03:33,382: INFO: stage_03_model_training: >>>>>>stage Training completed <<<<<<
+
+x==========x]
+[2024-04-13 22:15:17,271: INFO: stage04_model_evaluation: >>>>>> stage Evaluation started <<<<<<]
+[2024-04-13 22:15:17,271: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-13 22:15:17,271: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-13 22:15:17,271: INFO: common: created directory at: artifacts]
+[2024-04-13 22:19:20,867: INFO: common: json file saved at: scores.json]
+[2024-04-13 22:19:23,937: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-04-13 22:19:24,710: INFO: builder_impl: Assets written to: C:\Users\prath\AppData\Local\Temp\tmpox_ok0mc\model\data\model\assets]
+[2024-04-13 22:20:23,601: INFO: stage04_model_evaluation: >>>>>>stage Evaluation completed <<<<<<
+
+x==========x]
+[2024-04-13 22:21:49,233: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-04-13 22:21:49,249: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-13 22:21:49,249: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-13 22:21:49,249: INFO: common: created directory at: artifacts]
+[2024-04-13 22:21:49,249: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-04-13 22:21:49,690: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-13 22:21:49,864: INFO: stage_02_prepare_base_model: >>>>>>stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-04-13 22:22:01,111: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2024-04-13 22:22:01,111: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-13 22:22:01,111: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-13 22:22:01,111: INFO: common: created directory at: artifacts]
+[2024-04-13 22:22:01,111: INFO: common: created directory at: artifacts\training]
+[2024-04-14 00:20:37,388: INFO: stage_03_model_training: >>>>>>stage Training completed <<<<<<
+
+x==========x]
+[2024-04-14 00:21:14,057: INFO: stage04_model_evaluation: >>>>>> stage Evaluation started <<<<<<]
+[2024-04-14 00:21:14,057: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-14 00:21:14,073: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-14 00:21:14,073: INFO: common: created directory at: artifacts]
+[2024-04-14 00:30:34,957: INFO: common: json file saved at: scores.json]
+[2024-04-14 00:30:35,547: WARNING: connectionpool: Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F3642A6DC0>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /tan-nandam/Kidney_Disease_Classification_Deep_Learning_Project.mlflow/api/2.0/mlflow/runs/create]
+[2024-04-14 00:30:39,560: WARNING: connectionpool: Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F3642A6E20>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /tan-nandam/Kidney_Disease_Classification_Deep_Learning_Project.mlflow/api/2.0/mlflow/runs/create]
+[2024-04-14 00:30:47,575: WARNING: connectionpool: Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F3642A6B20>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /tan-nandam/Kidney_Disease_Classification_Deep_Learning_Project.mlflow/api/2.0/mlflow/runs/create]
+[2024-04-14 00:31:03,577: WARNING: connectionpool: Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F3642882B0>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /tan-nandam/Kidney_Disease_Classification_Deep_Learning_Project.mlflow/api/2.0/mlflow/runs/create]
+[2024-04-14 00:31:35,581: WARNING: connectionpool: Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F3642889D0>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /tan-nandam/Kidney_Disease_Classification_Deep_Learning_Project.mlflow/api/2.0/mlflow/runs/create]
+[2024-04-14 00:31:35,583: ERROR: stage04_model_evaluation: API request to https://dagshub.com/tan-nandam/Kidney_Disease_Classification_Deep_Learning_Project.mlflow/api/2.0/mlflow/runs/create failed with exception HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /tan-nandam/Kidney_Disease_Classification_Deep_Learning_Project.mlflow/api/2.0/mlflow/runs/create (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F3642887C0>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)"))]
+Traceback (most recent call last):
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000001F3642887C0>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 877, in urlopen
+    return self.urlopen(
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 877, in urlopen
+    return self.urlopen(
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 877, in urlopen
+    return self.urlopen(
+  [Previous line repeated 2 more times]
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /tan-nandam/Kidney_Disease_Classification_Deep_Learning_Project.mlflow/api/2.0/mlflow/runs/create (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F3642887C0>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 167, in http_request
+    return _get_http_response_with_retries(
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 98, in _get_http_response_with_retries
+    return session.request(method, url, **kwargs)
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /tan-nandam/Kidney_Disease_Classification_Deep_Learning_Project.mlflow/api/2.0/mlflow/runs/create (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F3642887C0>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "src/cnnClassifier/pipeline/stage04_model_evaluation.py", line 23, in <module>
+    obj.main()
+  File "src/cnnClassifier/pipeline/stage04_model_evaluation.py", line 17, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\prath\kidney_disease_classification_deep_learning_project\src\cnnClassifier\components\model_evaluation.py", line 57, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 350, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 275, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 131, in create_run
+    return self.store.create_run(
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 175, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 56, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 278, in call_endpoint
+    response = http_request(
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 185, in http_request
+    raise MlflowException(f"API request to {url} failed with exception {e}")
+mlflow.exceptions.MlflowException: API request to https://dagshub.com/tan-nandam/Kidney_Disease_Classification_Deep_Learning_Project.mlflow/api/2.0/mlflow/runs/create failed with exception HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /tan-nandam/Kidney_Disease_Classification_Deep_Learning_Project.mlflow/api/2.0/mlflow/runs/create (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F3642887C0>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)"))
+[2024-04-14 15:08:11,269: INFO: stage04_model_evaluation: >>>>>> stage Evaluation started <<<<<<]
+[2024-04-14 15:08:11,285: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-14 15:08:11,285: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-14 15:08:11,301: INFO: common: created directory at: artifacts]
+[2024-04-14 15:17:28,375: INFO: common: json file saved at: scores.json]
+[2024-04-14 15:17:35,077: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-04-14 15:17:36,935: INFO: builder_impl: Assets written to: C:\Users\prath\AppData\Local\Temp\tmpitz6i3rw\model\data\model\assets]
+[2024-04-14 15:18:43,832: INFO: stage04_model_evaluation: >>>>>>stage Evaluation completed <<<<<<
+
+x==========x]
+[2024-04-14 16:48:03,760: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080]
+[2024-04-14 16:48:03,760: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-04-14 16:48:18,221: INFO: _internal: 127.0.0.1 - - [14/Apr/2024 16:48:18] "GET / HTTP/1.1" 200 -]
+[2024-04-14 16:49:27,639: INFO: _internal: 127.0.0.1 - - [14/Apr/2024 16:49:27] "POST /predict HTTP/1.1" 200 -]
+[2024-04-14 16:49:45,625: INFO: _internal: 127.0.0.1 - - [14/Apr/2024 16:49:45] "POST /predict HTTP/1.1" 200 -]
+[2024-04-14 16:51:17,665: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080]
+[2024-04-14 16:51:17,665: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-04-14 16:52:55,281: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080]
+[2024-04-14 16:52:55,281: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-04-14 16:53:01,136: INFO: _internal: 127.0.0.1 - - [14/Apr/2024 16:53:01] "GET / HTTP/1.1" 200 -]
+[2024-04-14 16:53:14,319: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: decorator() missing 1 required positional argument: 'f'
+[2024-04-14 16:53:14,331: INFO: _internal: 127.0.0.1 - - [14/Apr/2024 16:53:14] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-04-14 17:00:25,470: INFO: _internal: 127.0.0.1 - - [14/Apr/2024 17:00:25] "GET / HTTP/1.1" 200 -]
+[2024-04-14 17:00:38,094: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: decorator() missing 1 required positional argument: 'f'
+[2024-04-14 17:00:38,096: INFO: _internal: 127.0.0.1 - - [14/Apr/2024 17:00:38] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-04-14 17:03:26,318: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080]
+[2024-04-14 17:03:26,318: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-04-14 17:03:42,545: INFO: _internal: 127.0.0.1 - - [14/Apr/2024 17:03:42] "GET / HTTP/1.1" 200 -]
+[2024-04-14 17:03:49,810: INFO: _internal: 127.0.0.1 - - [14/Apr/2024 17:03:49] "POST /predict HTTP/1.1" 200 -]
+[2024-04-14 17:04:06,473: INFO: _internal: 127.0.0.1 - - [14/Apr/2024 17:04:06] "POST /predict HTTP/1.1" 200 -]
+[2024-04-14 17:04:16,541: INFO: _internal: 127.0.0.1 - - [14/Apr/2024 17:04:16] "POST /predict HTTP/1.1" 200 -]
+[2024-04-14 17:04:20,414: INFO: _internal: 127.0.0.1 - - [14/Apr/2024 17:04:20] "POST /predict HTTP/1.1" 200 -]
+[2024-04-14 17:04:30,825: WARNING: polymorphic_function: 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x00000171818C4280> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-04-14 17:04:30,840: INFO: _internal: 127.0.0.1 - - [14/Apr/2024 17:04:30] "POST /predict HTTP/1.1" 200 -]
+[2024-04-14 17:04:38,126: INFO: _internal: 127.0.0.1 - - [14/Apr/2024 17:04:38] "GET / HTTP/1.1" 200 -]
+[2024-04-14 17:04:39,233: INFO: _internal: 127.0.0.1 - - [14/Apr/2024 17:04:39] "GET / HTTP/1.1" 200 -]
+[2024-04-14 17:04:46,376: WARNING: polymorphic_function: 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x00000171818C4670> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-04-14 17:04:46,376: INFO: _internal: 127.0.0.1 - - [14/Apr/2024 17:04:46] "POST /predict HTTP/1.1" 200 -]
+[2024-04-14 17:05:43,096: INFO: _internal: 127.0.0.1 - - [14/Apr/2024 17:05:43] "GET / HTTP/1.1" 200 -]
+[2024-04-14 17:05:43,272: INFO: _internal: 127.0.0.1 - - [14/Apr/2024 17:05:43] "GET / HTTP/1.1" 200 -]
+[2024-04-14 17:05:43,452: INFO: _internal: 127.0.0.1 - - [14/Apr/2024 17:05:43] "GET / HTTP/1.1" 200 -]
+[2024-04-14 17:05:43,633: INFO: _internal: 127.0.0.1 - - [14/Apr/2024 17:05:43] "GET / HTTP/1.1" 200 -]
+[2024-04-14 17:05:43,813: INFO: _internal: 127.0.0.1 - - [14/Apr/2024 17:05:43] "GET / HTTP/1.1" 200 -]
+[2024-04-14 17:05:44,022: INFO: _internal: 127.0.0.1 - - [14/Apr/2024 17:05:44] "GET / HTTP/1.1" 200 -]
+[2024-04-14 17:05:52,041: INFO: _internal: 127.0.0.1 - - [14/Apr/2024 17:05:52] "POST /predict HTTP/1.1" 200 -]
+[2024-04-14 17:08:32,141: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080]
+[2024-04-14 17:08:32,141: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-04-14 17:08:44,020: INFO: _internal: 192.168.1.3 - - [14/Apr/2024 17:08:44] "GET / HTTP/1.1" 200 -]
+[2024-04-14 17:08:59,386: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 38, in predictRoute
+    result = clApp.classifier.predict()
+  File "c:\users\prath\kidney_disease_classification_deep_learning_project\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\prath\anaconda3\envs\kidney\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-04-14 17:08:59,395: INFO: _internal: 192.168.1.3 - - [14/Apr/2024 17:08:59] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-04-14 17:10:10,415: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080]
+[2024-04-14 17:10:10,415: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-04-14 17:10:15,261: INFO: _internal: 192.168.1.3 - - [14/Apr/2024 17:10:15] "GET / HTTP/1.1" 200 -]
+[2024-04-14 17:10:34,078: INFO: _internal: 192.168.1.3 - - [14/Apr/2024 17:10:34] "POST /predict HTTP/1.1" 200 -]
+[2024-04-14 17:11:40,297: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080]
+[2024-04-14 17:11:40,297: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-04-14 17:11:43,545: INFO: _internal: 192.168.1.3 - - [14/Apr/2024 17:11:43] "GET / HTTP/1.1" 200 -]
+[2024-04-14 17:11:52,316: INFO: _internal: 192.168.1.3 - - [14/Apr/2024 17:11:52] "POST /predict HTTP/1.1" 200 -]
+[2024-04-14 17:12:04,818: INFO: _internal: 192.168.1.3 - - [14/Apr/2024 17:12:04] "POST /predict HTTP/1.1" 200 -]
+[2024-04-14 17:12:15,613: INFO: _internal: 192.168.1.3 - - [14/Apr/2024 17:12:15] "POST /predict HTTP/1.1" 200 -]
+[2024-04-14 17:12:25,129: INFO: _internal: 192.168.1.3 - - [14/Apr/2024 17:12:25] "POST /predict HTTP/1.1" 200 -]
+[2024-04-14 17:12:32,932: WARNING: polymorphic_function: 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000024981D93160> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-04-14 17:12:32,932: INFO: _internal: 192.168.1.3 - - [14/Apr/2024 17:12:32] "POST /predict HTTP/1.1" 200 -]
+[2024-04-14 17:12:40,349: WARNING: polymorphic_function: 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000024981D93820> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-04-14 17:12:40,349: INFO: _internal: 192.168.1.3 - - [14/Apr/2024 17:12:40] "POST /predict HTTP/1.1" 200 -]
+[2024-04-14 17:12:50,097: INFO: _internal: 192.168.1.3 - - [14/Apr/2024 17:12:50] "POST /predict HTTP/1.1" 200 -]
