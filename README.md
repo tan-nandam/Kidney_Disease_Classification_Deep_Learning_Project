@@ -75,8 +75,4 @@ Run this to export as env variables:
 
 export MLFLOW_TRACKING_URI=https://dagshub.com/tan-nandam/Kidney_Disease_Classification_Deep_Learning_Project.mlflow
 
-export MLFLOW_TRACKING_USERNAME=tan-nandam 
-
-export MLFLOW_TRACKING_PASSWORD=0b23c7fe2908b1df3c0a5ab0ed0357d15bf3ab12
-
 ```
